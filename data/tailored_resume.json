@@ -1,0 +1,134 @@
+{
+  "firstName": "Shreshth",
+  "lastName": "Kushwaha",
+  "phoneNumber": "+1 9793268614",
+  "email": "shreshth.kushwaha@tamu.edu",
+  "location": "College Station, TX",
+  "linkedin": "https://www.linkedin.com/in/shreshthkushwaha/",
+  "github": "https://github.com/ShreshthKushwaha",
+  "education": [
+    "Texas A&M University",
+    "Aligarh Muslim University"
+  ],
+  "achievements": [
+    "Professional Scrum Master Certified, REST API Developer",
+    "Presented research Paper at WRFER ICEEE conference on smart charging of E-vehicles",
+    "Published the same paper in the International Journal Of Advances In Electronics And Computer Science",
+    "Ranked 3rd in the competitive programming contest Codeheat organized by Engineering College CS Department"
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "MiHIN",
+      "startDate": "May 2024",
+      "endDate": "",
+      "isPresent": true,
+      "bullets": [
+        "Built scalable ETL pipeline (Python, AWS Lambda, S3, DynamoDB) for e-commerce platform; used Generative AI and LLMs with AWS CDK",
+        "Migrated infrastructure to AWS CDK from Terraform, reducing costs by 90%",
+        "Developed full-stack modules (Java, Python, ReactJS) for health data exchange platform"
+      ],
+      "skills": [
+        "AWS",
+        "Python",
+        "React JS",
+        "SQL",
+        "SpringBoot",
+        "Java",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "MiHIN",
+      "startDate": "June 2023",
+      "endDate": "Aug 2023",
+      "isPresent": false,
+      "bullets": [
+        "Improved project reliability by 60% and reduced environment errors by 90% through API rate limiter and Dockerization"
+      ],
+      "skills": []
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Cognizant Technologies",
+      "startDate": "Feb 2022 ",
+      "endDate": "June 2022",
+      "isPresent": false,
+      "bullets": [
+        "Built productivity software using React JS & Agile methodologies; automated testing with Java Selenium"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Party Animal",
+      "description": "",
+      "bullets": [
+        "Engineering a full-stack web app using SpringBoot and React to enable users to host & attend safe house parties",
+        "Designed client-server architecture & wrote 15+ secure REST APIs to enable messaging, user authentication, etc",
+        "Leveraging React JS along with Redux state management to create client-side application which can assist 10000s of university students in availing peer ride sharing and reducing DUI incidents by 90% and ride costs by 70%"
+      ],
+      "tech_stack": [
+        "Java",
+        "SpringBoot",
+        "MySQL",
+        "ReactJS"
+      ]
+    },
+    {
+      "title": "Victor Health",
+      "description": "",
+      "bullets": [
+        "Developed an Android Health platform for presenting users with workout sessions, customized meal planning, timed exercises; Provided workout session tracking with up to 80% accuracy",
+        "Incorporated localized SQFlite Database in the app for meal data, customized workouts, diet planning, etc",
+        "Coordinated more than 30 workout-related states using Provider pattern; processed data using cool animations & interactive UI widgets for Pie charts, Stop Watch, Cards, etc"
+      ],
+      "tech_stack": [
+        "Android - Dart",
+        "SQL",
+        "UI/UX"
+      ]
+    }
+  ],
+  "skills": {
+    "Programming": [
+      "SQL",
+      "Data structures and algorithms",
+      "Java",
+      "Dart",
+      "JavaScript",
+      "C++",
+      "Python",
+      "Object Oriented Prog."
+    ],
+    "Technologies": [
+      "CI/CD",
+      "REST APIs",
+      "ReactJS",
+      "Selenium",
+      "AWS",
+      "Django",
+      "Flutter",
+      "JSON",
+      "Springboot",
+      "HTML/CSS"
+    ],
+    "Tools": [
+      "Git",
+      "Android Studio",
+      "Linux",
+      "Postgres",
+      "Docker",
+      "Shell",
+      "NoSQL",
+      "Postman",
+      "MongoDB",
+      "SOAP UI",
+      "VS code",
+      "Jira"
+    ]
+  }
+}

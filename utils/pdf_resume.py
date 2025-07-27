@@ -87,4 +87,4 @@ def generate_resume_pdf(json_path, pdf_path):
     doc.build(story)
 
 # Example usage:
-generate_resume_pdf("../data/resume.json", "../output/resume.pdf")
+# generate_resume_pdf("../data/resume.json", "../output/resume.pdf")

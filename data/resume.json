@@ -1,0 +1,137 @@
+{
+  "firstName": "Shreshth",
+  "lastName": "Kushwaha",
+  "phoneNumber": "+1 9793268614",
+  "email": "shreshth.kushwaha@tamu.edu",
+  "location": "College Station, TX",
+  "linkedin": "https://www.linkedin.com/in/shreshthkushwaha/",
+  "github": "https://github.com/ShreshthKushwaha",
+  "education": [
+    "Texas A&M University",
+    "Aligarh Muslim University"
+  ],
+  "achievements": [
+    "Professional Scrum Master Certified, REST API Developer",
+    "Presented research Paper at WRFER ICEEE conference on smart charging of E-vehicles",
+    "Published the same paper in the International Journal Of Advances In Electronics And Computer Science",
+    "Ranked 3rd in the competitive programming contest Codeheat organized by Engineering College CS Department"
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "MiHIN",
+      "startDate": "May 2024",
+      "endDate": "",
+      "isPresent": true,
+      "bullets": [
+        "Built a multithreaded, scalable ETL pipeline (Python, AWS Lambda, S3, DynamoDB, Linux) to transfer millions of EHR records with ~0% data loss; developed solutions with AWS Bedrock Gen AI, LLMs, and AWS Q",
+        "Migrated infra to AWS CDK from Serverless/Terraform, reducing costs by 90% and streamlining deployment",
+        "Engineering full-stack modules (Java, Python, ReactJS) for HL7 FHIR-compliant health data exchange platform",
+        "Wrote unit tests with Pytest to raise code coverage to 70%; partnered with QA to implement BDD testing",
+        "Containerized AWS Lambdas using Docker; deployed to ECS to mitigate timeouts and improve reliability",
+        "Led CI/CD pipeline migration from Bitbucket to GitLab; Built Grafana dashboards with AWS timestream tables"
+      ],
+      "skills": [
+        "AWS",
+        "Python",
+        "React JS",
+        "SQL",
+        "SpringBoot",
+        "Java"
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "MiHIN",
+      "startDate": "June 2023",
+      "endDate": "Aug 2023",
+      "isPresent": false,
+      "bullets": [
+        "Addressed UI, security, and input validation issues to improve live projects\u2019 reliability by 60%",
+        "Single-handedly coded an API rate limiter from scratch to throttle malicious requests exceeding 100 per minute & Dockerized project components to reduce environment errors by 90%"
+      ],
+      "skills": []
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Cognizant Technologies",
+      "startDate": "Feb 2022 ",
+      "endDate": "June 2022",
+      "isPresent": false,
+      "bullets": [
+        "Built productivity software using React JS & Agile methodologies; Utilized Test-Driven Development to ensure the robustness and quality of the software, which logged time of over 300 employees",
+        "Integrated front-end with backend via REST API & HTTP; Used Java Selenium & Apache POI data-driven testing to automate live project testing against 500 test case data records & to reduce manual testing team\u2019s efforts by 70%"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Party Animal",
+      "description": "",
+      "bullets": [
+        "Engineering a full-stack web app using SpringBoot and React to enable users to host & attend safe house parties",
+        "Designed client-server architecture & wrote 15+ secure REST APIs to enable messaging, user authentication, etc",
+        "Leveraging React JS along with Redux state management to create client-side application which can assist 10000s of university students in availing peer ride sharing and reducing DUI incidents by 90% and ride costs by 70%"
+      ],
+      "tech_stack": [
+        "Java",
+        "SpringBoot",
+        "MySQL",
+        "ReactJS"
+      ]
+    },
+    {
+      "title": "Victor Health",
+      "description": "",
+      "bullets": [
+        "Developed an Android Health platform for presenting users with workout sessions, customized meal planning, timed exercises; Provided workout session tracking with up to 80% accuracy",
+        "Incorporated localized SQFlite Database in the app for meal data, customized workouts, diet planning, etc",
+        "Coordinated more than 30 workout-related states using Provider pattern; processed data using cool animations & interactive UI widgets for Pie charts, Stop Watch, Cards, etc"
+      ],
+      "tech_stack": [
+        "Android - Dart",
+        "SQL",
+        "UI/UX"
+      ]
+    }
+  ],
+  "skills": {
+    "Programming": [
+      "SQL",
+      "Data structures and algorithms",
+      "Java",
+      "Dart",
+      "JavaScript",
+      "C++",
+      "Python",
+      "Object Oriented Prog."
+    ],
+    "Technologies": [
+      "CI/CD",
+      "REST APIs",
+      "ReactJS",
+      "Selenium",
+      "AWS",
+      "Django",
+      "Flutter",
+      "JSON",
+      "Springboot",
+      "HTML/CSS"
+    ],
+    "Tools": [
+      "Git",
+      "Android Studio",
+      "Linux",
+      "Postgres",
+      "Docker",
+      "Shell",
+      "NoSQL",
+      "Postman",
+      "MongoDB",
+      "SOAP UI",
+      "VS code",
+      "Jira"
+    ]
+  }
+}

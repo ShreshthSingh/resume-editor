@@ -9,6 +9,7 @@ def load_resume(json_path):
         return json.load(f)
 
 def make_resume_story(resume):
+    print ("resume", resume)
     styles = getSampleStyleSheet()
     story = []
 
@@ -26,15 +27,12 @@ def make_resume_story(resume):
         story.append(Paragraph(f"- {edu}", styles['Normal']))
     story.append(Spacer(1, 0.05*inch))
 
-    # Achievements
-    if resume.get("achievements"):
-        story.append(Paragraph("Achievements", styles['Heading2']))
-        ach_list = ListFlowable(
-            [ListItem(Paragraph(ach, styles['Normal'])) for ach in resume["achievements"]],
-            bulletType='bullet'
-        )
-        story.append(ach_list)
-        story.append(Spacer(1, 0.1*inch))
+    # Skills
+    if resume.get("skills"):
+        story.append(Paragraph("Skills", styles['Heading2']))
+        for cat, items in resume["skills"].items():
+            story.append(Paragraph(f"<b>{cat}:</b> {', '.join(items)}", styles['Normal']))
+        story.append(Spacer(1, 0.05*inch))
 
     # Experience
     if resume.get("experience"):
@@ -69,12 +67,16 @@ def make_resume_story(resume):
                 story.append(Paragraph(f"<i>Tech Stack: {', '.join(proj['tech_stack'])}</i>", styles['Normal']))
             story.append(Spacer(1, 0.05*inch))
 
-    # Skills
-    if resume.get("skills"):
-        story.append(Paragraph("Skills", styles['Heading2']))
-        for cat, items in resume["skills"].items():
-            story.append(Paragraph(f"<b>{cat}:</b> {', '.join(items)}", styles['Normal']))
-        story.append(Spacer(1, 0.05*inch))
+    
+    # Achievements
+    if resume.get("achievements"):
+        story.append(Paragraph("Achievements", styles['Heading2']))
+        ach_list = ListFlowable(
+            [ListItem(Paragraph(ach, styles['Normal'])) for ach in resume["achievements"]],
+            bulletType='bullet'
+        )
+        story.append(ach_list)
+        story.append(Spacer(1, 0.1*inch))
 
     return story
 

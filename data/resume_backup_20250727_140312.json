@@ -47,7 +47,7 @@
       "endDate": "Aug 2023",
       "isPresent": false,
       "bullets": [
-        "Addressed UI, security, and input validation issues to improve live projects’ reliability by 60%",
+        "Addressed UI, security, and input validation issues to improve live projects\u2019 reliability by 60%",
         "Single-handedly coded an API rate limiter from scratch to throttle malicious requests exceeding 100 per minute & Dockerized project components to reduce environment errors by 90%"
       ],
       "skills": []
@@ -60,7 +60,7 @@
       "isPresent": false,
       "bullets": [
         "Built productivity software using React JS & Agile methodologies; Utilized Test-Driven Development to ensure the robustness and quality of the software, which logged time of over 300 employees",
-        "Integrated front-end with backend via REST API & HTTP; Used Java Selenium & Apache POI data-driven testing to automate live project testing against 500 test case data records & to reduce manual testing team’s efforts by 70%"
+        "Integrated front-end with backend via REST API & HTTP; Used Java Selenium & Apache POI data-driven testing to automate live project testing against 500 test case data records & to reduce manual testing team\u2019s efforts by 70%"
       ],
       "skills": []
     }
@@ -105,8 +105,7 @@
       "JavaScript",
       "C++",
       "Python",
-      "Object Oriented Prog.",
-      "TypeScript"
+      "Object Oriented Prog."
     ],
     "Technologies": [
       "CI/CD",
@@ -118,10 +117,7 @@
       "Flutter",
       "JSON",
       "Springboot",
-      "HTML/CSS",
-      "GitHub Actions",
-      "Jenkins",
-      "CircleCI"
+      "HTML/CSS"
     ],
     "Tools": [
       "Git",
@@ -135,8 +131,7 @@
       "MongoDB",
       "SOAP UI",
       "VS code",
-      "Jira",
-      "Unix-like environment"
+      "Jira"
     ]
   }
 }
